@@ -53,8 +53,8 @@ frame_rojo.place(x=0 , y=375)
 #frame rojo-----------
 #-------------------------
 frame_rojo=Frame(ventana_principal)
-frame_rojo.config(bg="gray1", width=70, height=70)
-frame_rojo.place(x=100 , y=200)
+frame_rojo.config(bg="red", width=100, height=100)
+frame_rojo.place(x=60 , y=200)
 
 #run
 #se ejecuta el metodo mainloop () de la clase Tk() a través de la instancia ventana_principal.Este metodo despliega la ventana en pantalla  queda a la espera a lo que el usuario haga (click en un boton, escribir, etc). Cada accion del usuario se conoce como un evento. Él metodo mainloop() es un bucle infinito.

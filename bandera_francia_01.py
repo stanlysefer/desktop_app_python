@@ -31,19 +31,19 @@ ventana_principal.config(bg="")
 #frame azul-----------
 #-------------------------
 frame_azul=Frame(ventana_principal)
-frame_azul.config(bg="blue", width=166, height=500)
-frame_azul.place(x=0, y=500)
+frame_azul.config(bg="blue", width=500, height=500)
+frame_azul.place(x=0, y=0)
 
 #-------------------------
 #frame blanco-----------
 #-------------------------
 frame_blanco=Frame(ventana_principal)
-frame_blanco.config(bg="snow", width=332, height=500)
-frame_blanco.place(x=0, y=0)
+frame_blanco.config(bg="snow", width=500, height=500)
+frame_blanco.place(x=166, y=0)
 
 frame_escudo=Frame(ventana_principal)
-frame_escudo.config(bg="",width=30, height=30)
-frame_escudo.place(x=0,y=0)
+frame_escudo.config(bg="red",width=500, height=500)
+frame_escudo.place(x=332,y=0)
 
 #run
 #se ejecuta el metodo mainloop () de la clase Tk() a través de la instancia ventana_principal.Este metodo despliega la ventana en pantalla  queda a la espera a lo que el usuario haga (click en un boton, escribir, etc). Cada accion del usuario se conoce como un evento. Él metodo mainloop() es un bucle infinito.
