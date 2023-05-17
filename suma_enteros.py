@@ -27,7 +27,7 @@ def calcular():
     
 #borrar
 def borrar():
-    messagebox.showinfo("minicalculadora 1.0", "los datosseran borrados")
+    messagebox.showinfo("minicalculadora 1.0", "los datos seran borrados")
     x.set("")
     y.set("")
     t_resultados.delete("1.0", "end")
